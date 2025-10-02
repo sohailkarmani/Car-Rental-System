@@ -7,10 +7,11 @@ public class Car {
     private double pricePerDay;
     private boolean isAvailable;
 
-    public Car(String carID,String brand, String model,boolean isAvailable){
+    public Car(String carID,String brand, String model,double pricePerDay,boolean isAvailable){
         this.carID=carID;
         this.brand=brand;
         this.model=model;
+        this.pricePerDay=pricePerDay;
         this.isAvailable=true;
     }
     public String getID(){
