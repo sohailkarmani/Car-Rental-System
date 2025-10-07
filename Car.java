@@ -1,4 +1,3 @@
-//package Car-Rental-System;
 
 public class Car {
     private String carID;
@@ -7,7 +6,7 @@ public class Car {
     private double pricePerDay;
     private boolean isAvailable;
 
-    public Car(String carID,String brand, String model,double pricePerDay,boolean isAvailable){
+    public Car(String carID,String brand, String model,double pricePerDay){
         this.carID=carID;
         this.brand=brand;
         this.model=model;
